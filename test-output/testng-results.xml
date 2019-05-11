@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[User logged in successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31708" started-at="2019-01-12T16:39:11Z" finished-at="2019-01-12T16:39:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31708" started-at="2019-01-12T16:39:11Z" finished-at="2019-01-12T16:39:43Z">
+      <class name="TestGroup.TestArtifact.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestGroup.TestArtifact.LoginTest@20322d26]" name="setup" is-config="true" duration-ms="11576" started-at="2019-01-12T22:09:11Z" finished-at="2019-01-12T22:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintoMMT()[pri:0, instance:TestGroup.TestArtifact.LoginTest@20322d26]" name="logintoMMT" duration-ms="3335" started-at="2019-01-12T22:09:23Z" finished-at="2019-01-12T22:09:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User logged in successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoMMT -->
+        <test-method status="PASS" signature="logtoReport()[pri:0, instance:TestGroup.TestArtifact.LoginTest@20322d26]" name="logtoReport" is-config="true" duration-ms="3" started-at="2019-01-12T22:09:26Z" finished-at="2019-01-12T22:09:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logtoReport -->
+        <test-method status="PASS" signature="VerifyWalletBalance()[pri:1, instance:TestGroup.TestArtifact.LoginTest@20322d26]" name="VerifyWalletBalance" duration-ms="8083" started-at="2019-01-12T22:09:26Z" finished-at="2019-01-12T22:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWalletBalance -->
+        <test-method status="PASS" signature="logtoReport()[pri:0, instance:TestGroup.TestArtifact.LoginTest@20322d26]" name="logtoReport" is-config="true" duration-ms="0" started-at="2019-01-12T22:09:34Z" finished-at="2019-01-12T22:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logtoReport -->
+        <test-method status="PASS" signature="VerifyWalletBalanceagain()[pri:2, instance:TestGroup.TestArtifact.LoginTest@20322d26]" name="VerifyWalletBalanceagain" duration-ms="8078" started-at="2019-01-12T22:09:34Z" finished-at="2019-01-12T22:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWalletBalanceagain -->
+        <test-method status="PASS" signature="logtoReport()[pri:0, instance:TestGroup.TestArtifact.LoginTest@20322d26]" name="logtoReport" is-config="true" duration-ms="0" started-at="2019-01-12T22:09:42Z" finished-at="2019-01-12T22:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logtoReport -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:TestGroup.TestArtifact.LoginTest@20322d26]" name="Closebrowser" is-config="true" duration-ms="613" started-at="2019-01-12T22:09:42Z" finished-at="2019-01-12T22:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- TestGroup.TestArtifact.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
